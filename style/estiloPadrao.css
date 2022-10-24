@@ -23,6 +23,12 @@ body {
     overflow: hidden;
     }
 
+    #about{
+        text-align: center;
+        align-content: center;
+        align-items: center;
+    }
+
 footer{
     position: fixed;
     top: 90%;
@@ -88,10 +94,11 @@ p{
      font-size: 30px;
      color:black;
      font-family: Arial, Helvetica, sans-serif;
+     text-align: center;
  }
 
 ul{
-    list-style-type: none;/**//*nÃO SEI*/]
+    list-style-type: none;/**//*nÃO SEI*/
     margin: 0;
     height: 25px;
     padding: 0;
