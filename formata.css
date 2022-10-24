@@ -1,0 +1,62 @@
+
+
+body{
+    background-color: rgb(215, 223, 216);
+   
+}
+
+h1,h2,h3{
+    text-align: center;
+    color: black;
+    font-size: 2rem;
+}
+
+header{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    height: 10%;
+    width: 100%;
+}
+
+main{
+    position: fixed;
+    top: 10%;
+    left: 5%;
+    height: 80%;
+    width: 100%;
+    overflow: auto;
+
+}
+
+footer{
+    position: fixed;
+    top: 90%;
+    left: 0%;
+    height: 10%;
+    width: 100%;
+}
+
+p{
+ font-size: 25px;
+ color:black;
+ font-family: Arial, Helvetica, sans-serif;
+ 
+ 
+ }
+
+ a{
+     text-decoration: none;
+     color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+
+ }
+
+
+
+
+
+
+ 
+ 

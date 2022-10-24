@@ -1,0 +1,112 @@
+a{
+    text-decoration: none;
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-image: url("../img/wallpaper.png"); /*local da imagem*/
+    background-size: cover; /*fixa a imagem na tela inteira independente do zoom*/
+    background-repeat: no-repeat; /*para a imagem não ficar repetimndo varias vezes*/
+    margin: 0 auto;
+    }
+
+#containerPainel{
+    background: #574BFB;
+    position: center;
+    margin: 100px auto 100px auto;
+    font-family: Arial;
+    padding: 30px;
+    top: 20%;
+    width: 75%;
+    min-height:400px;
+    overflow: hidden;
+    }
+
+footer{
+    position: fixed;
+    top: 90%;
+    left: 0%;
+    height: 10%;
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+    font-family: Algerian;
+    color: #1100FA;
+    font-size: large;
+    text-shadow: 0.1em 0.1em 0.0em black;
+    font-size: 2rem;
+    font-weight: bold;
+    }
+
+h3{
+    text-align: center;
+    font-family: Algerian;
+    color: #1100FA;
+    font-size: small;
+    text-shadow: 0.1em 0.1em 0.0em black;
+    font-size: 2rem;
+}
+
+header{
+    position: fixed;
+    top: 10%;
+    left: 0%;
+    height: 10%;
+    width: 100%;
+}
+
+main{
+    position: fixed;
+    top: 20%;
+    left: 5%;
+    height: 80%;
+    width: 100%;
+    overflow: auto;
+
+}
+
+li {
+    display: inline;/**//*Deixa uma lista na horizontal*/
+}
+
+li a {
+    border-right: 1px solid #574BFB; /*cria divisórias na barra de navegaçao*/
+    text-shadow: 0.1em 0.1em 0.0em black;
+    display: inline;/**//*Deixa uma lista na horizontal*/
+    color: #1100FA;
+
+    font-size: 20px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+p{
+     font-size: 30px;
+     color:black;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+ul{
+    list-style-type: none;/**//*nÃO SEI*/]
+    margin: 0;
+    height: 25px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+
+
+
+
+
+
+ 
+ 
