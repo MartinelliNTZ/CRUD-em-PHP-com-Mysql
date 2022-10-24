@@ -28,7 +28,7 @@
     <main>
         <div id="containerPainel">  
               <a id = "about">
-              <p>Desenvolvido por Matheus Martinelli </p>
+              <p>Desenvolvido por ©Matheus Martinelli </p>
              <p>Curso Técnico em Análise e Desenvolvimento de Sistemas</p>
              <p>Escola Estadual de São Paulo, Centro Paula Souza</p> 
              <p>Etec Pedro D'Arcadia Neto</p> 
