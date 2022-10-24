@@ -10,7 +10,11 @@ h1,h2,h3{
     color: black;
     font-size: 2rem;
 }
-
+#about{
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
 header{
     position: fixed;
     top: 0%;

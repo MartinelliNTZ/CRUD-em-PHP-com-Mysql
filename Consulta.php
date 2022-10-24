@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CE MTLS&A</title>
+    <title>CE MTLS&A Cuonsulta</title>
     <link rel= "stylesheet" href = "style/estiloPadrao.css">
   
 </head>
@@ -21,8 +21,9 @@
         <li><a href="Consulta.php">Consulta</a></li>
         <li><a href="Editar.php">Editar</a></li>
         <li><a href="excluir.php">Excluir</a></li>
+        <li><a href="sobre.php">Sobre</a></li>
     </ul>
-        <h1 > Consultar Currisulo </h1>
+        <h1 > Consultar Curricúlo </h1>
     </header>
     <main>
         <div id="containerPainel">
