@@ -10,6 +10,14 @@ body {
     background-repeat: no-repeat; /*para a imagem não ficar repetimndo varias vezes*/
     margin: 0 auto;
     }
+    @font-face {
+        font-family: carta-magna;
+        src: url( "../src/Carta.ttf");
+     }
+     @font-face {
+        font-family: camelot;
+        src: url( "../src/Creator.otf");
+     }
 
 #containerPainel{
     background: #574BFB;
@@ -35,16 +43,17 @@ footer{
     left: 0%;
     height: 10%;
     width: 100%;
+    
 }
 
 h1{
     text-align: center;
-    font-family: Algerian;
+    font-family: camelot;
     color: #1100FA;
     font-size: large;
-    text-shadow: 0.1em 0.1em 0.0em black;
-    font-size: 2rem;
-    font-weight: bold;
+    text-shadow: 0.02em 0.02em 0.10em white;
+    font-size: 6em;
+    font-weight: bold;    
     }
 
 h3{
@@ -55,6 +64,15 @@ h3{
     text-shadow: 0.1em 0.1em 0.0em black;
     font-size: 2rem;
 }
+h5{
+    text-align: center;
+    font-family: carta-magna;
+    color: #1100FA;
+    font-size: large;
+    text-shadow: 0.1em 0.1em 0.0em black;
+    font-size: 2rem;
+    font-weight: bold;    
+    }
 
 header{
     position: fixed;
@@ -94,7 +112,7 @@ p{
      font-size: 30px;
      color:black;
      font-family: Arial, Helvetica, sans-serif;
-     text-align: center;
+   
  }
 
 ul{
