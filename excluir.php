@@ -1,38 +1,41 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CE MTLS&A Excluir</title>
-    <link rel= "stylesheet" href = "style/estiloPadrao.css">
+    <link rel="stylesheet" href="style/estiloPadrao.css">
     <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
 
 </head>
+
 <body>
-    <ul><!--Lista de botoes de cabeçalho-->        
-        <li><a href="inserir.php">Inserir</a></li>        
+    <ul>
+        <!--Lista de botoes de cabeçalho-->
+        <li><a href="inserir.php">Inserir</a></li>
         <li><a href="Consulta.php">Consulta</a></li>
         <li><a href="Editar.php">Editar</a></li>
         <li><a href="excluir.php">Excluir</a></li>
         <li><a href="sobre.php">Sobre</a></li>
     </ul>
     <header>
-        <h1 > Excluir Cadastro</h1>
+        <h1> EXCLUIR CADASTRO</h1>
     </header>
     <main>
         <div id="containerPainel">
 
-        <form  method ="POST" action="excluir.php">
-            <p>Nome: <input type="text"  name="nome"> 
-                CPF: <input type="text"  name="cpf5" > </p>         
+            <form method="POST" action="excluir.php">
+                <p>Nome: <input type="text" name="nome">
+                    CPF: <input type="text" name="cpf5"> </p>
                 <input type="reset" value="Limpar">
-                <input type="submit" value="Excluir">     
-                            
-                         
-        </form>        
-        
-        <?php 
+                <input type="submit" value="Excluir">
+
+
+            </form>
+
+            <?php 
         
         
         if(isset($_POST["nome"])){          $nome = $_POST["nome"];     }       else{       $nome = null;     }   
@@ -68,12 +71,13 @@
     
     
 
-        ?>       
-       </div>
+        ?>
+        </div>
     </main>
 
     <footer>
-       
+
     </footer>
 </body>
+
 </html>
