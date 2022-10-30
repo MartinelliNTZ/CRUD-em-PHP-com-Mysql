@@ -17,7 +17,8 @@
    
       
 <header>
-<ul><!--Lista de botoes de cabeçalho-->        
+<ul><!--Lista de botoes de cabeçalho--> 
+        <li><a href="index.php">Página Inicial</a></li>       
         <li><a href="inserir.php">Inserir</a></li>        
         <li><a href="Consulta.php">Consulta</a></li>
         <li><a href="Editar.php">Editar</a></li>

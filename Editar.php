@@ -11,6 +11,7 @@
 </head>
 <body>
     <ul><!--Lista de botoes de cabeçalho-->        
+        <li><a href="index.php">Página Inicial</a></li>
         <li><a href="inserir.php">Inserir</a></li>        
         <li><a href="Consulta.php">Consulta</a></li>
         <li><a href="Editar.php">Editar</a></li>
@@ -39,8 +40,8 @@
             <p>E-mail: <input type="email" name="email">
             Telefone: <input type="text"  name="tele" >
             Experiencia: <input type="text" name="expe" > </p>
-            <input type="reset" value="Limpar">
-            <input type="submit" value="Alterar Cadastro">
+            <input type="reset" value="Limpar" id="bt">
+            <input type="submit" value="Alterar Cadastro" id="bt">
             
              
         </form>

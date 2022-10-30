@@ -8,6 +8,10 @@ body {
     background-image: url("../img/wallpaper.png"); /*local da imagem*/
     background-size: cover; /*fixa a imagem na tela inteira independente do zoom*/
     background-repeat: no-repeat; /*para a imagem não ficar repetimndo varias vezes*/
+ /* background-image:    linear-gradient(    transparent 0%,    transparent 90%,    white 90%,    black 100%  );
+ background-color: linear-gradient(179.98deg, rgba(0, 0, 0, 0) 19.55%, #22DD7A 124.71%);/
+ background-color: linear-gradient(black, red);*/
+
     margin: 0 auto;
     }
     @font-face {
@@ -19,8 +23,13 @@ body {
         src: url( "../src/Creator.otf");
      }
 
+     #bt:hover{
+        background-color: #1100FA;
+     }
+
 #containerPainel{
-    background: #574BFB;
+    background-color: rgb(74 74 255/10%);
+    backdrop-filter: blur(5px);
     position: center;
     margin: 100px auto 100px auto;
     font-family: Arial;
@@ -47,6 +56,8 @@ footer{
 }
 
 h1{
+    background-size: 100% 100%;
+    background-position-x: center ;
     text-align: center;
     font-family: camelot;
     color: #1100FA;
